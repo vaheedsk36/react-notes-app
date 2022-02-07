@@ -32,7 +32,7 @@ function App() {
     const newNote = {
       id:nanoid(),
       text:text,
-      data:date.toLocaleDateString()
+      date:date.toLocaleDateString()
     }
 
     const newNotes = [...notes,newNote];
